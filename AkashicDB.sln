@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.Common", "AkashicDB.Common\AkashicDB.Common.csproj", "{5CD76620-C556-404A-A59D-C10D45034782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.MicroStorage.Core", "AkashicDB.MicroStorage.Core\AkashicDB.MicroStorage.Core.csproj", "{A5F98A2D-FDCD-4905-BF66-C6DF62FA5BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.MicroStorage.Contract", "AkashicDB.MicroStorage.Contract\AkashicDB.MicroStorage.Contract.csproj", "{7EE98D59-C56D-424D-86C6-A9831E0AF6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.MicroStorage.Core.Contract", "AkashicDB.MicroStorage.Core.Contract\AkashicDB.MicroStorage.Core.Contract.csproj", "{05420B6B-FF49-4BB6-8635-1B95B3E6CD38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.MicroStorage.Core.FileBased", "AkashicDB.MicroStorage.Core.FileBased\AkashicDB.MicroStorage.Core.FileBased.csproj", "{E40C8A12-1E84-440B-8FED-0D9C00251165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.MicroStorage.Core.FileBased.Azure", "AkashicDB.MicroStorage.Core.FileBased.Azure\AkashicDB.MicroStorage.Core.FileBased.Azure.csproj", "{07A9FF03-7B4D-4A37-938C-D5572928C0B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkashicDB.MicroStorage.Core.FileBased.Local", "AkashicDB.MicroStorage.Core.FileBased.Local\AkashicDB.MicroStorage.Core.FileBased.Local.csproj", "{3C58736C-06F5-44F6-968C-7608938BAE1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{5CD76620-C556-404A-A59D-C10D45034782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD76620-C556-404A-A59D-C10D45034782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD76620-C556-404A-A59D-C10D45034782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F98A2D-FDCD-4905-BF66-C6DF62FA5BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F98A2D-FDCD-4905-BF66-C6DF62FA5BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F98A2D-FDCD-4905-BF66-C6DF62FA5BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F98A2D-FDCD-4905-BF66-C6DF62FA5BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE98D59-C56D-424D-86C6-A9831E0AF6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE98D59-C56D-424D-86C6-A9831E0AF6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE98D59-C56D-424D-86C6-A9831E0AF6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE98D59-C56D-424D-86C6-A9831E0AF6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05420B6B-FF49-4BB6-8635-1B95B3E6CD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05420B6B-FF49-4BB6-8635-1B95B3E6CD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05420B6B-FF49-4BB6-8635-1B95B3E6CD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05420B6B-FF49-4BB6-8635-1B95B3E6CD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40C8A12-1E84-440B-8FED-0D9C00251165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40C8A12-1E84-440B-8FED-0D9C00251165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40C8A12-1E84-440B-8FED-0D9C00251165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40C8A12-1E84-440B-8FED-0D9C00251165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A9FF03-7B4D-4A37-938C-D5572928C0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A9FF03-7B4D-4A37-938C-D5572928C0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A9FF03-7B4D-4A37-938C-D5572928C0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A9FF03-7B4D-4A37-938C-D5572928C0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C58736C-06F5-44F6-968C-7608938BAE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C58736C-06F5-44F6-968C-7608938BAE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C58736C-06F5-44F6-968C-7608938BAE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C58736C-06F5-44F6-968C-7608938BAE1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
